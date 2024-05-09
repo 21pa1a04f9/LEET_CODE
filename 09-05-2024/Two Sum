@@ -5,4 +5,4 @@ class Solution:
                 if nums[i] in dictionary:
                     return [dictionary[nums[i]],i]
                 else:
-                    dictionary[target-nums[i]] = i
+                    dictionary[target-nums[i]] =i
